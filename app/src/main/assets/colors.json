@@ -1,0 +1,52 @@
+[
+  {
+    "turkish": "Kırmızı",
+    "english": "Red",
+    "image": "red.png"
+  },
+  {
+    "turkish": "Sarı",
+    "english": "Yellow",
+    "image": "yellow.png"
+  },
+  {
+    "turkish": "Yeşil",
+    "english": "Green",
+    "image": "green.png"
+  },
+  {
+    "turkish": "Mavi",
+    "english": "Blue",
+    "image": "blue.png"
+  },
+  {
+    "turkish": "Pembe",
+    "english": "Pink",
+    "image": "pink.png"
+  },
+  {
+    "turkish": "Mor",
+    "english": "Purple",
+    "image": "purple.png"
+  },
+  {
+    "turkish": "Kahverengi",
+    "english": "Brown",
+    "image": "brown.png"
+  },
+  {
+    "turkish": "Siyah",
+    "english": "Black",
+    "image": "black.png"
+  },
+  {
+    "turkish": "Beyaz",
+    "english": "White",
+    "image": "white.png"
+  },
+  {
+    "turkish": "Gri",
+    "english": "Grey",
+    "image": "grey.png"
+  }
+  ]

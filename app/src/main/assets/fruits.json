@@ -1,0 +1,77 @@
+[
+  {
+    "turkish": "Elma",
+    "english": "Apple",
+    "image": "apple.png"
+  },
+  {
+    "turkish": "Muz",
+    "english": "Banana",
+    "image": "banana.png"
+  },
+  {
+    "turkish": "Portakal",
+    "english": "Orange",
+    "image": "orange.png"
+  },
+  {
+    "turkish": "Üzüm",
+    "english": "Grapes",
+    "image": "grapes.png"
+  },
+  {
+    "turkish": "Çilek",
+    "english": "Strawberry",
+    "image": "strawberry.png"
+  },
+  {
+    "turkish": "Karpuz",
+    "english": "Watermelon",
+    "image": "watermelon.png"
+  },
+  {
+    "turkish": "Ananas",
+    "english": "Pineapple",
+    "image": "pineapple.png"
+  },
+  {
+    "turkish": "Mango",
+    "english": "Mango",
+    "image": "mango.png"
+  },
+  {
+    "turkish": "Kiraz",
+    "english": "Cherry",
+    "image": "cherry.png"
+  },
+  {
+    "turkish": "Şeftali",
+    "english": "Peach",
+    "image": "peach.png"
+  },
+  {
+    "turkish": "Armut",
+    "english": "Pear",
+    "image": "pear.png"
+  },
+  {
+    "turkish": "Limon",
+    "english": "Lemon",
+    "image": "lemon.png"
+  },
+  {
+    "turkish": "Yaban Mersini",
+    "english": "Blueberry",
+    "image": "blueberry.png"
+  },
+  {
+    "turkish": "Kivi",
+    "english": "Kiwi",
+    "image": "kiwi.png"
+  },
+  {
+    "turkish": "Erik",
+    "english": "Plum",
+    "image": "plum.png"
+  }
+]

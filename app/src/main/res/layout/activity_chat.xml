@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".ChatActivity">
+
+    <!-- Geri Dön Butonu -->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ic_back"
+        tools:ignore="ContentDescription" />
+
+    <!-- Uygulama Resmi -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_character"
+        tools:ignore="ContentDescription" />
+
+    <!-- Chat RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/appLogo"
+        android:layout_above="@id/messageInputLayout"
+        android:layout_marginTop="16dp"
+        android:padding="8dp" />
+
+    <!-- Mesaj Gönderme Alanı -->
+    <LinearLayout
+        android:id="@+id/messageInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- Mesaj Giriş Kutusu -->
+        <EditText
+            android:id="@+id/messageInput"
+            android:layout_width="390dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_search_button"
+            android:hint="Type your message..."
+            android:paddingStart="30dp"
+            android:paddingEnd="12dp"
+            android:textColor="#000"
+            android:textColorHint="#888"
+            android:textSize="14sp" />
+
+        <!-- Gönder Butonu -->
+        <ImageView
+            android:id="@+id/sendButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_send"
+            android:contentDescription="Send message"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+</RelativeLayout>

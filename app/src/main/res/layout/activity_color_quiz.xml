@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <!-- Geri Dönüş Butonu -->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_back"
+        tools:ignore="ContentDescription" />
+
+    <!-- Soru Metni ve Şıkların Ortalanması -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Soru Metni -->
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:textSize="24sp"
+            android:fontFamily="@font/modak"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:text="Which color is Black?" />
+
+        <!-- Şıklar -->
+        <Button
+            android:id="@+id/option1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="18sp"
+            android:background="@drawable/message_background"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/option2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="18sp"
+            android:background="@drawable/message_background"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/option3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="18sp"
+            android:background="@drawable/message_background"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>

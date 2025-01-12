@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "story": "Once upon a time, there was a little __ who lived in a forest.",
+    "missingWords": ["rabbit"],
+    "image": "story1"
+  },
+  {
+    "id": 2,
+    "story": "One day, the rabbit met a big __ near the river.",
+    "missingWords": ["bear"],
+    "image": "story2"
+  },
+  {
+    "id": 3,
+    "story": "The bear and the rabbit decided to find some delicious __ to eat.",
+    "missingWords": ["berries"],
+    "image": "story3"
+  },
+  {
+    "id": 4,
+    "story": "They shared the berries and became best __ forever!",
+    "missingWords": ["friends"],
+    "image": "story4"
+  }
+]

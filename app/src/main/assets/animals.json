@@ -1,0 +1,77 @@
+[
+  {
+    "turkish": "Köpek",
+    "english": "Dog",
+    "image": "dog.png"
+  },
+  {
+    "turkish": "Kedi",
+    "english": "Cat",
+    "image": "cat.png"
+  },
+  {
+    "turkish": "Kuş",
+    "english": "Bird",
+    "image": "bird.png"
+  },
+  {
+    "turkish": "Balık",
+    "english": "Fish",
+    "image": "fish.png"
+  },
+  {
+    "turkish": "At",
+    "english": "Horse",
+    "image": "horse.png"
+  },
+  {
+    "turkish": "Tavşan",
+    "english": "Rabbit",
+    "image": "rabbit.png"
+  },
+  {
+    "turkish": "İnek",
+    "english": "Cow",
+    "image": "cow.png"
+  },
+  {
+    "turkish": "Koyun",
+    "english": "Sheep",
+    "image": "sheep.png"
+  },
+  {
+    "turkish": "Domuz",
+    "english": "Pig",
+    "image": "pig.png"
+  },
+  {
+    "turkish": "Ördek",
+    "english": "Duck",
+    "image": "duck.png"
+  },
+  {
+    "turkish": "Tavuk",
+    "english": "Chicken",
+    "image": "chicken.png"
+  },
+  {
+    "turkish": "Keçi",
+    "english": "Goat",
+    "image": "goat.png"
+  },
+  {
+    "turkish": "Aslan",
+    "english": "Lion",
+    "image": "lion.png"
+  },
+  {
+    "turkish": "Kaplan",
+    "english": "Tiger",
+    "image": "tiger.png"
+  },
+  {
+    "turkish": "Ayı",
+    "english": "Bear",
+    "image": "bear.png"
+  }
+]

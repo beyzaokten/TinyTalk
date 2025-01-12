@@ -1,0 +1,14 @@
+[
+  { "id": 1, "type": "image", "name": "Duck", "image": "duck" },
+  { "id": 1, "type": "text", "name": "Duck", "image": "" },
+  { "id": 2, "type": "image", "name": "Blueberry", "image": "blueberry" },
+  { "id": 2, "type": "text", "name": "Blueberry", "image": "" },
+  { "id": 3, "type": "image", "name": "Rabbit", "image": "rabbit" },
+  { "id": 3, "type": "text", "name": "Rabbit", "image": "" },
+  { "id": 4, "type": "image", "name": "Pineapple", "image": "pineapple" },
+  { "id": 4, "type": "text", "name": "Pineapple", "image": "" },
+  { "id": 5, "type": "image", "name": "Dog", "image": "dog" },
+  { "id": 5, "type": "text", "name": "Dog", "image": "" },
+  { "id": 6, "type": "image", "name": "Cherry", "image": "cherry" },
+  { "id": 6, "type": "text", "name": "Cherry", "image": "" }
+]

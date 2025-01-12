@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <!-- Geri Dönüş Butonu -->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_back"
+        tools:ignore="ContentDescription" />
+
+    <!-- Üstteki Görsel -->
+    <ImageView
+        android:id="@+id/gameIcon"
+        android:layout_width="159dp"
+        android:layout_height="134dp"
+        android:layout_below="@id/backButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-56dp"
+        android:src="@drawable/game_icon"
+        tools:ignore="ContentDescription" />
+
+    <!-- Oyun Listesi Kutucukları Alanı -->
+    <LinearLayout
+        android:id="@+id/gameContainer"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/transparent_box"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- İlk Satır -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!-- Word Match Oyunu -->
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <ImageView
+                    android:id="@+id/wordMatchGame"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/word_match_icon"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corner_box"
+                    android:clipToOutline="true"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kelime Bulma"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Color Quiz Oyunu -->
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <ImageView
+                    android:id="@+id/colorQuizGame"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/color_quiz_icon"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corner_box"
+                    android:clipToOutline="true"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Renk Testi"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- İkinci Satır -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!-- Match Pairs Oyunu -->
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <ImageView
+                    android:id="@+id/matchPairsGame"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/match_pairs_icon"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corner_box"
+                    android:clipToOutline="true"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eşleştirme"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center" />
+            </LinearLayout>
+            <!-- Hikaye Tamamlama Oyunu -->
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="8dp">
+
+                <ImageView
+                    android:id="@+id/storyFillGame"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/story_fill_icon"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/rounded_corner_box"
+                    android:clipToOutline="true"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hikaye Doldurma"
+                    android:textSize="12sp"
+                    android:textColor="@android:color/black"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
